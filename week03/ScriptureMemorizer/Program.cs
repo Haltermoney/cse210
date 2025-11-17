@@ -1,3 +1,4 @@
+/* Extra: I added a prompt for the user to choose how many words are removed when the words are removed. */
 using System;
 
 class Program
