@@ -4,6 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        GoalManager main = new GoalManager();
+
+        while (main.GetMenu() != 6)
+        {
+            main.DisplayPlayerInfo();
+
+            main.Start();
+        }
     }
 }
